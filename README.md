@@ -1,4 +1,3 @@
-
 # Web Programming Quiz Controller : Session 5
 Name : Brychan Artanto
 
@@ -21,6 +20,7 @@ Technology used in my website are:
 - Laravel Framework
 - HTML
 - CSS
+- Bootstrap Framework
  
 
 ## How to download this project and open it from your device
@@ -53,3 +53,19 @@ then
 
 ## My Product Website
 There are 2 pages on this website which consist of a page that contains all available products and a page that contains details of the product being choosed.
+
+- Products Page
+At this page you can see several items that exist in my website. Existing products are divided into 3 Rarity:
+R - Rare - Silver
+SR - Super Rare - Gold
+SSR - Supe Super Rare - Red
+![Products](https://github.com/brychan1298/QuizProductController/blob/main/Products.png)
+
+- Detail Products Page
+When you choose a product on the website. You will go to the product detail page of the product you selected.
+![Detail Products](https://github.com/brychan1298/QuizProductController/blob/main/Detail%20Product.png)
+
+
+## Yield Template
+On my current website, there is a main page called head.blade.php as the main template. On this website there is a yield on 'title', 'meta description', and 'content'
+![Yield](https://github.com/brychan1298/QuizProductController/blob/main/Yield.png)
