@@ -29,7 +29,7 @@ To open my profile website from your own device, you can download this repositor
 You also need to install Node.Js so that you can use the NPM Package. You can install Node.JS from [here](https://nodejs.org/en/download)
 
 Now, you can follow this step to download my repository and run the project on your device.
-1. Open [my-profile-exercise](https://github.com/brychan1298/QuizProductController) repository and download the ZIP file.  
+1. Open [QuizProductController](https://github.com/brychan1298/QuizProductController) repository and download the ZIP file.  
 2. Then extract the ZIP and open the project in IDE (You can use Visual Studio Code to make it easier). 
 3. Then open a terminal that points to the directory folder. 
 4. We need to configure the environment so that the Laravel project can run. The first thing we have to do is copy the .env.example file to an .env file so that the current Laravel project has its own environment. 
