@@ -1,66 +1,55 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Web Programming Quiz Controller : Session 5
+Name : Brychan Artanto
 
-## About Laravel
+NIM : 2502041110
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Class : PPTI 12
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Subject : Web Programming
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Lecturer : Anderies, B.Eng., S.Kom., M.Kom.
 
-## Learning Laravel
+**Bina Nusantara University x PPTI BCA**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## My Controller Quiz
+Hi, my name is Brychan Artanto. I created a website that contains several products and has its own rarity as a fulfillment for the Web Programming Session 5 quiz.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## About My Website
+Technology used in my website are:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Laravel Framework
+- HTML
+- CSS
+ 
 
-## Laravel Sponsors
+## How to download this project and open it from your device
+To open my profile website from your own device, you can download this repository to your folder, then run the project from your device. Remember, that i built this project using **Laravel framework** so make sure you already have **PHP** and **Composer** installed on your device (You can see how to install Composer and Laravel on your device [here](https://laravel.com/docs/10.x/installation). But for now you only need to ensure that your local device has PHP and Composer Installed).
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+You also need to install Node.Js so that you can use the NPM Package. You can install Node.JS from [here](https://nodejs.org/en/download)
 
-### Premium Partners
+Now, you can follow this step to download my repository and run the project on your device.
+1. Open [my-profile-exercise](https://github.com/brychan1298/QuizProductController) repository and download the ZIP file.  
+2. Then extract the ZIP and open the project in IDE (You can use Visual Studio Code to make it easier). 
+3. Then open a terminal that points to the directory folder. 
+4. We need to configure the environment so that the Laravel project can run. The first thing we have to do is copy the .env.example file to an .env file so that the current Laravel project has its own environment. 
+The method is as follows. In the Visual Studio Code terminal, type the command:
+    `copy .env.example .env`
+	or if you are using Linux, type
+	`cp .env.example .env`
+	then press "Enter"
+5. Next, you also need to install all the packages that I use in this project. In Terminal, type command
+`composer install` then "Enter"
+6. After that, run the command `php artisan key:generate` 
+7. In making this website, I used a package that comes from NPM. so, in order for this project to run, you need to install the NPM packages that I use. It's easy, just run the command below:
+`npm install`
+then
+`npm run build`
+8. Now, the project that you downloaded already has all the packages and environment needed to run my website profile.
+9. The last step you need to do is just type the command
+`php artisan serve` then "Enter"  (in future, you just need to run this command to open my laravel website). Open by copy the given address and open it from your browser.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+10. Now, you can already open my website in your own browser.
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## My Product Website
+There are 2 pages on this website which consist of a page that contains all available products and a page that contains details of the product being choosed.

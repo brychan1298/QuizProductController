@@ -6,11 +6,14 @@
 @section('keyword','Semua Product')
 @section('content')
     <div class="container">
-        <div class="row mt-5 gx-5">
+        <h1 class="text-center mt-5">
+            Silahkan pilih kartu yang anda inginkan
+        </h1>
+        <div class="row mt-5 mb-5">
         @foreach ($products as $prod)
             @if($prod['rarity']==1)
                 <div class="col-lg-4">
-                    <div style="background-color: #c0c0c0" class="m-2 p-4">
+                    <div style="background-color: #c0c0c0" class="m-2 p-4 rounded">
                         <a href="detil/{{$prod['id']}}" class="text-decoration-none">
                             <h1>
                                 {{$prod['productName']}}
@@ -29,7 +32,7 @@
                 </div>
             @elseif($prod['rarity']==2)
                 <div class="col-lg-4">
-                    <div style="background-color: gold" class="mt-2 p-4">
+                    <div style="background-color: gold" class="mt-2 p-4 rounded">
                         <a href="detil/{{$prod['id']}}" class="text-decoration-none">
                             <h1>
                                 {{$prod['productName']}}
@@ -48,7 +51,7 @@
                 </div>
             @else
                 <div class="col-lg-4">
-                    <div style="background-color: red" class="mt-2 p-4">
+                    <div style="background-color: red" class="mt-2 p-4 rounded">
                         <a href="detil/{{$prod['id']}}" class="text-decoration-none">
                             <h1>
                                 {{$prod['productName']}}
