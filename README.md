@@ -55,7 +55,7 @@ then
 There are 2 pages on this website which consist of a page that contains all available products and a page that contains details of the product being choosed.
 
 - Products Page
-At this page you can see several items that exist in my website. Existing products are divided into 3 Rarity:
+At this page you can see several items that exist in my website. Existing products are divided into 3 Rarity: <br />
 R - Rare - Silver  <br />
 SR - Super Rare - Gold  <br />
 SSR - Supe Super Rare - Red  <br />
