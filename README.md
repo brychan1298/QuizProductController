@@ -56,9 +56,9 @@ There are 2 pages on this website which consist of a page that contains all avai
 
 - Products Page
 At this page you can see several items that exist in my website. Existing products are divided into 3 Rarity:
-R - Rare - Silver
-SR - Super Rare - Gold
-SSR - Supe Super Rare - Red
+R - Rare - Silver  <br />
+SR - Super Rare - Gold  <br />
+SSR - Supe Super Rare - Red  <br />
 ![Products](https://github.com/brychan1298/QuizProductController/blob/main/Products.png)
 
 - Detail Products Page
